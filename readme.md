@@ -4,12 +4,12 @@
 
 **Meetings:**
 
-- **Lectures:** Tuesdays and Thursdays 11:30 PM to 12:50 PM PST at CHL 015
-- **Labs:** Fridays at SMI 401, AA: 1:30 PM to 2:20 PM, AB: 2:30 PM to 3:20 PM
+- **Lectures:** Tuesdays and Thursdays 4:30 PM to 5:50 PM PST at SMI 205
+- **Labs:** Wednesday at SMI 401, AA: 12:30 PM to 1:20 PM, AB: 1:30 PM to 2:20 PM, AC: 2:30 PM to 3:20 PM, AD: 3:30 PM to 4:20 PM
 
 **Personnel:**
 
-- **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:30 to 5 PM by appointment. Make an appointment [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G).
+- **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:30 to 4:20 PM by appointment. Make an appointment [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G).
 
 
 - **Liz Peng**, Teaching Assistant, lp36@uw.edu |  Office Hour: Tuesdays 2:30 to 4:30 in SMI 430. It is recommended to send me an email or canvas message briefly describing your question(s) before your visit, as this will help me provide better answers. If the listed time does not work for you, please also feel free to send me an email/canvas message to schedule for another time.
@@ -44,26 +44,21 @@ This course is designed to be highly interactive and hands-on. Most of the cours
 
 ## :calendar: Weekly Schedule
 
-### Week 0: Intro to this course
 
-Please attend both the lecture and lab session. The instructor team will walk through the syllabus and lab instructions.
-
--  **Lecture:** [Syllabus](readme.md)
-  
 ### Week 1: Intro to digital geographies
 
-<!-- Jan 8 to Jan 12 -->
+<!-- Jan 5 to Jan 10 -->
 
 Welcome to the beginning of an exciting journey into digital geographies! This week's lecture and lab are designed to set you up for success in the course and provide a solid foundation of theoretical and technical knowledge. Together, we'll work through the syllabus and make sure that you have all the information you need to succeed. To get started, each student is expected to read the Ash et al (2018) paper. After completing Lab 1, you'll be able to clone/synchronize the course material, set up a personal website, and get some hands-on experience using github to manage your digital geographies projects.
 
--   **Lectures:**  [Intro to the Web](weeks/week01/intro-web), and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+-   **Lectures:**  [Syllabus](readme.md), [Intro to the Web](weeks/week01/intro-web), and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 -   **Readings:** a) [Digital turn, digital geographies?](https://drive.google.com/open?id=14HybNKsIik6oqefSpd-wAsKBF5lScwT_), b) [Humanistic GIS: Towards a research agenda](https://www.tandfonline.com/doi/pdf/10.1080/24694452.2021.2004875),  and c) [extended readings](weeks/week01/readings.md).
 -   **Think Piece 1:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613877) `Due: Jan 11th, by 11:59pm`
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Jan 19th, by 11:59pm`
 
 ### Week 2: Coding fundamentals
 
-<!-- Jan 15 to Jan 19 -->
+<!-- Jan 12 to Jan 16 -->
 
 This week is all about mastering the fundamental skills of web programming! We'll start by giving you an overview of the system architecture you'll need to have in place for a successful digital geographies project. From there, we'll guide you through some of the essential front-end fundamentals, including internet basics, HTML, JavaScript, and CSS.
 
@@ -78,7 +73,7 @@ This week will require a lot of self-learning, so be prepared for some fairly le
 
 ### Week 3: Geospatial data and mapping
 
-<!-- Jan 22 to Jan 26 -->
+<!-- Jan 19 to Jan 23 -->
 
 This week, it's all about mastering the art of processing geospatial data for your digital geographies projects! We'll start by introducing you to the structure of the geojson format, and then delve into techniques for collecting, converting, and visualizing geojson objects and features in a web or desktop environment like QGIS. Also, please get ready to take your web mapping skills to the next level! Also, in the lab section, we will introduce how to create your first web map of the quarter using the popular library [MapBox](https://www.mapbox.com/mapbox-gljs). 
 
@@ -92,7 +87,7 @@ This week, it's all about mastering the art of processing geospatial data for yo
 
 ### Week 4: Map design
 
-<!-- Jan 29 to Feb 2 -->
+<!-- Jan 26 to Jan 30 -->
 
 In the lecture section, we'll work together to make sure everyone is familiar with the basics of web mapping, and then provide a detailed introduction to the Lab 4 exercise. This is your chance to showcase your skills and bring your digital geographies projects to life with interactive, visually stunning maps. So let's get to work and see what you're capable of – we can't wait to see your creations!
 
@@ -105,7 +100,7 @@ In the lecture section, we'll work together to make sure everyone is familiar wi
 
 ### Week 5: Participatory GIS
 
-<!-- Feb 5 to Feb 9  -->
+<!-- Feb 2 to Feb 6  -->
 This week, we shift our focus to the concept of Participatory GIS, a pivotal area that intertwines the technological aspects of geographic information systems with the human elements of participation and community engagement. Participatory GIS emphasizes the involvement and perspectives of local communities, empowering individuals to contribute to the mapping and analysis of their own environments. It’s a unique blend of technology and sociology, where maps become tools for social change and community development.
 
 -   **Presentations**: Tuesday: A People's GIS? (AA3),  Thursday: [Queering The Map](https://www.queeringthemap.com) (AB3)
@@ -118,7 +113,7 @@ This week, we shift our focus to the concept of Participatory GIS, a pivotal are
 
 ### Week 6: Smart dashboards
 
-<!-- Feb 12 to Feb 16-->
+<!-- Feb 9 to Feb 13-->
 
 Smart dashboards are an incredibly powerful tool for visualizing and presenting complex events, particularly in the field of geography. By coordinating multiple visual components like maps, charts, texts, tables, and diagrams, smart dashboards allow you to present a holistic view of a given event in an intuitive and easy-to-understand way. One of the most popular uses for smart dashboards is to visualize the trend of COVID-19(refer to https://hgis.uw.edu/virus), but these powerful tools can be used for all kinds of applications. So get ready to take your data visualization skills to the next level and create stunning, interactive dashboards that will help you tell your story in a way that truly engages and informs your audience.
 
@@ -132,7 +127,7 @@ Smart dashboards are an incredibly powerful tool for visualizing and presenting 
 
 ### Week 7: Geo-Narratives
 
-<!-- Feb 19 to Feb 23 -->
+<!-- Feb 16 to Feb 20 -->
 
 This week, we're diving into geo-narrative – the use of storytelling in mapping practice. We'll explore this concept by looking at some of the most innovative geo-narrative mapping projects out there and engaging in group discussions and map critiques. Whether you're an experienced mapmaker or new to the field, this is your chance to push the boundaries of what's possible with maps and create truly immersive, interactive stories that engage and inform your audience.
 
@@ -148,7 +143,7 @@ This week, we're diving into geo-narrative – the use of storytelling in mappin
 
 ### Week 8: Emerging topics
 
-<!-- Feb 26 to Mar 1 -->
+<!-- Feb 23 to Feb 27 -->
 
 This week, we're exploring emerging topics in digital geographies! We'll be focusing on two cutting-edge topics – deepfake Geography and crypto place  – and examining their potential as well as the challenges and pitfalls they present. This is your chance to get a glimpse of the future of digital geographies and think about how these technologies will shape the way we understand and interact with the world around us. 
 
@@ -157,13 +152,13 @@ This week, we're exploring emerging topics in digital geographies! We'll be focu
 -   **Think Piece 8:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613870) `Due: Feb 29, by 11:59pm`
 -   **[Final Project Checkpoint](project/readme.md):** [Project development and identified issues](https://canvas.uw.edu/courses/1696704/discussion_topics/8613879) `Due: Mar 3rd, by 11:59pm`
 
-### Week 9: Project presentation
+### Week 9-10: Project preparation and presentation
 
-<!-- Mar 4 to Mar 8 --> 
+<!-- Mar 2 to Mar 13 --> 
 
 **It is important that each group meets with their TA at least once during the lab session in Week 9. Therefore, it is crucial that all students participate in the lab sessions during this week.** Additionally, the instructor will be available for virtual meetings during normal lecture and office hours in Weeks 9 for troubleshooting and to offer assistance with the final projects. These meetings can be  scheduled through the designated office hours. If neither of these time slots is convenient, please contact the instructor to arrange a meeting at a mutually available time.
 
-During this week, each group will focus on their final projects, with the instructor and TAs available to provide support during normal lecture periods, lab sessions, and office hours. Don't hesitate to reach out if you need any help along the way.
+During this week, each group will focus on their final projects, with the instructor and TAs available to provide support during normal lecture periods, lab sessions, and office hours. Don't hesitate to reach out if you need any help along the way. The final project presentation will be held in Week 10.
 
 
 ## :bell: Course Requirement
@@ -180,7 +175,7 @@ During this week, each group will focus on their final projects, with the instru
 
 **GitHub:** The course material will be hosted on GitHub instead of UW Canvas. On this dedicated GitHub repository, you can find most of the course material, participate in group discussions by submitting GitHub issues, and create new GitHub repositories to turn in the lab deliverables. By the end of this quarter, you will be more proficient in operating a cloud-based coding environment and able to host your work online as a way to gain public and peer attentions.
 
-**Labs:** Over this quarter, we offer 7 lab assignments. But you do not need to finish them all. You ned to finish Lab 1, 2, 3, and 4. And then finish either one of Lab 5, 6, and 7. So, you will finish 5 labs in total. **Remember, your final project will be built upon either Lab 5, 6, 7, or a project that has been approved by the instructor. So, a group can strategically choose which lab to finish.**
+**Labs:** Over this quarter, we offer 7 lab assignments. But you do not need to finish them all. You need to finish Lab 1, 2, 3, and 4. And then finish either one of Lab 5, 6, and 7. So, you will finish 5 labs in total. **Remember, your final project will be built upon either Lab 5, 6, 7, or a project idea that has been approved by the instructor. So, a group can strategically choose which lab to finish.**
 
 **Think Pieces:** for week 1 to 8, there will be weekly reading assignments. To evaluate your reflection upon each week's reading material, we set up a discussion board for each week. You need to submit at least think pieces to **4** out of the 8 weeks' discussion topics. We will review them all, but only the four with hightest scores will be counted towards your final grade. Your think pieces should be completed by Thursday @ 11:59 pm for the weeks you are submitting a piece. **All the 4 think pieces must be submitted by the end of Week 8**. Your think pieces should be at least 350 words and engage substantially with the reading materials, and connections to the lab assignments and lectures. **The focus of your discussion should be the main readings**, as the extended readings are for your further interests. Guiding questions or prompts will be included in each week's discussion section on canvas to help frame your thinking. Submit your think pieces on Canvas in the applicable week's discussion section.
 
