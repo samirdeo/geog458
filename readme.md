@@ -98,7 +98,6 @@ In the lecture section, we'll work together to make sure everyone is familiar wi
 -   **Think Piece 4:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613874) `Due: Feb 2nd, by 11:59pm`
 -   **Lab 4:** [Map Design and Tile Generation](labs/lab04) `Due: Feb 4th, by 11:59pm`
 
-
 ### Week 5: Participatory GIS
 
 <!-- Feb 2 to Feb 6  -->
