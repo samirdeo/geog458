@@ -55,7 +55,7 @@ Welcome to the beginning of an exciting journey into digital geographies! This w
 
 -   **Lectures:**  [Syllabus](readme.md), [Intro to the Web](weeks/week01/intro-web), and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 -   **Readings:** a) [Digital turn, digital geographies?](https://drive.google.com/open?id=14HybNKsIik6oqefSpd-wAsKBF5lScwT_), b) [Humanistic GIS: Towards a research agenda](https://www.tandfonline.com/doi/pdf/10.1080/24694452.2021.2004875),  and c) [extended readings](weeks/week01/readings.md).
--   **Think Piece 1:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613877) `Due: Jan 12th, by 11:59pm`
+-   **Think Piece 1:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211927) `Due: Jan 12th, by 11:59pm`
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Jan 14th, by 11:59pm`
 
 ### Week 2: Coding fundamentals
@@ -70,7 +70,7 @@ This week will require a lot of self-learning, so be prepared for some fairly le
 
 -   **Lectures:** [System architecture](weeks/week02/architecture), [intro-to-html, css](weeks/week02/html-css) and [javascript](weeks/week02/javascript). [More tutorial on web development fundamentals](weeks/week02/tech-readings.md)
 -   **Readings:**  a) [Introducing Code/Space](https://drive.google.com/file/d/11bL1grUFMD1Cw_bhuAZ2FHLDjM7kzW2Z/view?usp=sharing), b) [A White Paper on Locational Information and the Public Interest](https://drive.google.com/file/d/13JHgDfdID6Yynk5jfKimgtB6h7ygGFsO/view?usp=sharing), and c) [extended readings](weeks/week02/readings.md).
--   **Think Piece 2:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613876) `Due: Jan 19th, by 11:59pm`
+-   **Think Piece 2:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211928) `Due: Jan 19th, by 11:59pm`
 -   **Lab 2:** [Web data collection and visualization](labs/lab02) `Due: Jan 21, by 11:59pm` If you want to integrate a word cloud to your final project please refer to [this tutorial](troubleshoots/wordcloud/readme.md)
 
 ### Week 3: Geospatial data and mapping
@@ -82,7 +82,7 @@ This week, it's all about mastering the art of processing geospatial data for yo
 -   **Presentations**: Tuesday: Standing Rock paper, Putting Data in the Context paper; Thursday:  [Native Land Digital](https://native-land.ca/), [LandMark](https://www.landmarkmap.org/)
 -   **Lectures:** [Geospatial data for digital geographies](weeks/week03/readme.md), [More than you ever wanted to know about GeoJSON](weeks/week03/assets/geojson.pdf), and [Making Thematic Maps on the Internet using MapBox](weeks/week04/readme.md)
 -   **Readings:** a) [Stand with #StandingRock: Envisioning an Epistemological Shift in Understanding Geospatial Big Data in the “Post-truth” Era](https://drive.google.com/file/d/1nYGPMOCbDgSlKa9sW0ZChKXIIteIrVQA/view?usp=sharing), b) [Putting Data back into Context](https://datajournalism.com/read/longreads/putting-data-back-into-context), c) [extended readings](weeks/week03/readings.md).
--   **Think Piece 3:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613875) `Due: Jan 30th, by 11:59pm`
+-   **Think Piece 3:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211929) `Due: Jan 26th, by 11:59pm`
 -   **Lab 3:** [Web map application](labs/lab03) `Due: Jan 28, by 11:59pm`
 
 
@@ -95,7 +95,7 @@ In the lecture section, we'll work together to make sure everyone is familiar wi
 -   **Presentations**: Tuesday: Hacker Cartography Paper (AB2), [TweetMap](https://www.heavy.ai/demos/tweetmap) (AA2); Thursday: Digital Mapping and Segregation paper, [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/)
 -   **Lectures:** [BaseMap design using Mapbox Studio](https://docs.mapbox.com/studio-manual/overview/), [Mockup for web mapping project](weeks/week04/mockup/readme.md), and [MapBox Studio How-to Videos](weeks/week05/readme.md).
 -   **Readings:** a) [Digital Mapping and Segregation](https://www.forbes.com/sites/drsarahbond/2017/10/20/how-is-digital-mapping-changing-the-way-we-visualize-racism-and-segregation/#4df35c7d33fa), b) [Hacker Cartography](https://drive.google.com/file/d/1Gb486GWG34i4ZE_FfiMMtO87R-RQs15e/view?usp=sharing), and c) [extended readings](weeks/week04/readings.md).
--   **Think Piece 4:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613874) `Due: Feb 2nd, by 11:59pm`
+-   **Think Piece 4:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211930) `Due: Feb 2nd, by 11:59pm`
 -   **Lab 4:** [Map Design and Tile Generation](labs/lab04) `Due: Feb 4th, by 11:59pm`
 
 ### Week 5: Participatory GIS
@@ -106,7 +106,7 @@ This week, we shift our focus to the concept of Participatory GIS, a pivotal are
 -   **Presentations**: Tuesday: A People's GIS? (AA3), [Humanitarian OpenStreetMap Team Project](https://www.hotosm.org/en/projects/); Thursday: When Web 2.0 meets PPGIS paper, [Queering The Map](https://www.queeringthemap.com) (AB3)
 -   **Lectures:** introduces how to make a [Participatory mapping project](https://github.com/jakobzhao/participatory-mapping). You will need to register a Heroku account and deploy your web mapping application to Heroku.
 -   **Readings:** a) [Participatory GIS - a people's GIS?](https://drive.google.com/file/d/1e31D5WlDuSwfGPrNJFoFKQKLpfe3_dWW/view?usp=sharing) b) [When Web 2.0 meets PPGIS](https://drive.google.com/file/d/1ZP5sC_s3ncdWCqadPIwq60hK6rtRF1-_/view?usp=sharing), and c) [extended readings](weeks/week05/readings.md).
--   **Think Piece 5:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613873) `Due: Feb 9th, by 11:59pm`
+-   **Think Piece 5:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211931) `Due: Feb 9th, by 11:59pm`
 -   **Lab 5:** [Participatory Online Map Application](labs/lab05) `Due: Feb 19th, by 11:59pm`
 
 -   **[Final Project Checkpoint](project/readme.md):** [Draft project proposal, data sources, and other multimedia](https://canvas.uw.edu/courses/1696704/discussion_topics/8613882) `Due: Feb. 5th 11:59pm`
@@ -120,7 +120,7 @@ Smart dashboards are an incredibly powerful tool for visualizing and presenting 
 -   **Presentations**: Tuesday: History of the Urban Dashboard paper, [Restaurant Complaints in NYC](https://labs.mapbox.com/bites/00304/) (AA4); Thursday: The praxis and politics of building urban dashboards paper (AB4), [city dashboard](https://www.cityhealthdashboard.com/)
 -   **Lectures:** introduce how to [create a smart dashboard](weeks/week06/readme.md). The instructor wil walk through a smart dashboard illustrating earthquakes in Japan in September 2017 together during the lectures (Check out this dashboard at [here](https://jakobzhao.github.io/geog458/weeks/week06/index.html)). This dashboard is primarily built with a map component and a dynamic chart. This map component is made by MapBox, while the chart was built upon [C3.js](https://c3js.org/examples.html).
 -   **Readings:** a) [The praxis and politics of building urban dashboards](https://drive.google.com/file/d/1l3V1drqXMxn9rib7nTuDtxJC5YcWL0pY/view?usp=sharing), b) [History of the Urban Dashboard](https://placesjournal.org/article/mission-control-a-history-of-the-urban-dashboard/), and c) [extended readings](weeks/week06/readings.md).
--   **Think Piece 6:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613872) `Due: Feb 16th by 11:59pm`
+-   **Think Piece 6:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211932) `Due: Feb 16th by 11:59pm`
 -  **Lab 6:** [Smart Dashboard Application](labs/lab06) `Due: Feb 19th, by 11:59pm`
 
 -   **[Final Project Checkpoint](project/readme.md):** [Design project prototype & data preparation](https://canvas.uw.edu/courses/1696704/discussion_topics/8613881) `Due: Feb. 12th, by 11:59pm`
@@ -135,7 +135,7 @@ This week, we're diving into geo-narrative – the use of storytelling in mappin
 
 -   **Lectures:** a) [A Geo-Narrative Template](weeks/week07/). Examples: a) [Oregon Atlas](http://oregonwater.info/atlas.html), b) [Stand with #Standing Rock](https://jakobzhao.github.io/standwithstandingrock/)
 -   **Readings:** a) [Planning and outlining your story map](https://www.esri.com/arcgis-blog/products/arcgis-storymaps/sharing-collaboration/planning-and-outlining-your-story-map-how-to-set-yourself-up-for-success/) , b) [Cartographic Design as Visual Storytelling: Synthesis and Review of Map-Based Narratives, Genres, and Tropes](https://drive.google.com/drive/folders/1JoXMil3jC6jAS9gE3K8zeP0NSHyHJkE7), c)[extended readings](weeks/week07/readings.md).
--   **Think Piece 7:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613871) `Due: Feb 23, by 11:59pm`
+-   **Think Piece 7:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211933) `Due: Feb 23, by 11:59pm`
 -  **Lab 7:** [Making a Map-based Storytelling Application](labs/lab07) `Due: Feb 19th, by 11:59pm`
 
 -   **[Final Project Checkpoint](project/readme.md):** [Proposal revision and pilot study](https://canvas.uw.edu/courses/1696704/discussion_topics/8613880) `Due: Feb. 19th, by 11:59pm`
@@ -149,7 +149,7 @@ This week, we're exploring emerging topics in digital geographies! We'll be focu
 
 -   **Lectures:** The lecture focuses on the following papers.
 -   **Readings:** a) [Deepfake Geography](https://www.researchgate.net/profile/Chunxue-Xu/publication/351131604_Deep_fake_geography_When_geospatial_data_encounter_Artificial_Intelligence/links/608a48f5a6fdccaebdf4f065/Deep-fake-geography-When-geospatial-data-encounter-Artificial-Intelligence.pdf), and b) [Blockchain and crypto place](https://www.sciencedirect.com/science/article/pii/S0016718520302219/pdfft?isDTMRedir=true&download=true), c) [extended readings](weeks/week08/readings.md).
--   **Think Piece 8:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613870) `Due: Feb 30, by 11:59pm`
+-   **Think Piece 8:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211934) `Due: Mar 2nd, by 11:59pm`
 -   **[Final Project Checkpoint](project/readme.md):** [Project development and identified issues](https://canvas.uw.edu/courses/1696704/discussion_topics/8613879) `Due: Feb 26th, by 11:59pm`
 
 ### Week 9-10: Project preparation and presentation
