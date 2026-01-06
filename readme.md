@@ -5,7 +5,7 @@
 **Meetings:**
 
 - **Lectures:** Tuesdays and Thursdays 4:30 PM to 5:50 PM PST at SMI 205
-- **Labs:** Wednesday at SMI 401, AA: 12:30 PM to 1:20 PM, AB: 1:30 PM to 2:20 PM, AC: 2:30 PM to 3:20 PM, AD: 3:30 PM to 4:20 PM
+- **Labs:** Wednesdays at SMI 401, AA: 12:30 PM to 1:20 PM, AB: 1:30 PM to 2:20 PM, AC: 2:30 PM to 3:20 PM, AD: 3:30 PM to 4:20 PM
 
 **Personnel:**
 
@@ -13,6 +13,8 @@
 
 
 - **Liz Peng**, Teaching Assistant, lp36@uw.edu |  Office Hour: Tuesdays 2:30 to 4:30 in SMI 430. It is recommended to send me an email or canvas message briefly describing your question(s) before your visit, as this will help me provide better answers. If the listed time does not work for you, please also feel free to send me an email/canvas message to schedule for another time.
+
+- **Alex Kirchmeier**， Teaching Assistant, alexak24@uw.edu | TBD
 
 > _This web page is the syllabus - There is no printed version, please refer here instead. Make sure refer to this page as often as possible. Also, Feel free to ask the instructor for clarifications whenever needed._
 
