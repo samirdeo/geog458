@@ -79,8 +79,7 @@ This week will require a lot of self-learning, so be prepared for some fairly le
 
 This week, it's all about mastering the art of processing geospatial data for your digital geographies projects! We'll start by introducing you to the structure of the geojson format, and then delve into techniques for collecting, converting, and visualizing geojson objects and features in a web or desktop environment like QGIS. Also, please get ready to take your web mapping skills to the next level! Also, in the lab section, we will introduce how to create your first web map of the quarter using the popular library [MapBox](https://www.mapbox.com/mapbox-gljs). 
 
-
--   **Presentations**: Tuesday: Standing Rock paper (AA1), Thursday:  [Native Land Digital](https://native-land.ca/) (AB1)
+-   **Presentations**: Tuesday: Standing Rock paper, [Native Land Digital](https://native-land.ca/); Thursday: [Putting Data in the Context] paper, 
 -   **Lectures:** [Geospatial data for digital geographies](weeks/week03/readme.md), [More than you ever wanted to know about GeoJSON](weeks/week03/assets/geojson.pdf), and [Making Thematic Maps on the Internet using MapBox](weeks/week04/readme.md)
 -   **Readings:** a) [Stand with #StandingRock: Envisioning an Epistemological Shift in Understanding Geospatial Big Data in the “Post-truth” Era](https://drive.google.com/file/d/1nYGPMOCbDgSlKa9sW0ZChKXIIteIrVQA/view?usp=sharing), b) [Putting Data back into Context](https://datajournalism.com/read/longreads/putting-data-back-into-context), c) [extended readings](weeks/week03/readings.md).
 -   **Think Piece 3:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1696704/discussion_topics/8613875) `Due: Jan 30th, by 11:59pm`
