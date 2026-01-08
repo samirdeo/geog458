@@ -14,7 +14,7 @@
 
 - **Liz Peng**, Teaching Assistant, lp36@uw.edu |  Office Hour: Tuesdays 2:30 to 4:30 in SMI 430. It is recommended to send me an email or canvas message briefly describing your question(s) before your visit, as this will help me provide better answers. If the listed time does not work for you, please also feel free to send me an email/canvas message to schedule for another time.
 
-- **Alex Kirchmeier**， Teaching Assistant, alexak24@uw.edu | TBD
+- **Alex Kirchmeier**, Teaching Assistant, alexak24@uw.edu | Office Hour: Thursdays 12:00 to 2:00 in SMI 428.
 
 > _This web page is the syllabus - There is no printed version, please refer here instead. Make sure refer to this page as often as possible. Also, Feel free to ask the instructor for clarifications whenever needed._
 
