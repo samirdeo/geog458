@@ -183,7 +183,7 @@ During this week, each group will focus on their final projects, with the instru
 
 **In-class presentation:** **Also, each group will lead the presentation about an assigned topic at least once throughout this quarter. We will start the group presentation in Week 3.** Each group will present an previously assign paper or a digital geography related project in no more than 15 minutes. If you prepare slides for the presentation, please send it to the instructor before class via email to the instructor. 
 
-- When preparing an in-class presentation for a digital project, like an interactive map, make sure to cover the main topic and key functions of the project. Also, connect the reading material and your think-piece with the project, for example providing a critical assessment of the use of geospatial data. Additionally, make sure to go into depth about the technical aspects of the project, such as the system architecture and the code.
+- When preparing an in-class presentation for a digital project, like an interactive map, make sure to cover the main topic and key functions of the project. Also, connect the reading material and your think-piece with the project, for example providing a critical assessment of the use of geospatial data. Additionally, make sure to go into depth about the technical aspects of the project, such as the system architecture and the code. Check out [the detailed requirement for in-class presentation](presentation/readme.md).
 
 **Final Project:** will be conducted by a group of 4 to 5 students who are from the same Lab session. It needs to be submitted by `March 11th 11:59pm`. Check out [the detailed requirement for final project](project/readme.md).
 
