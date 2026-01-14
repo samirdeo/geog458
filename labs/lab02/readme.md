@@ -47,6 +47,12 @@ dpkg -i google-chrome-stable_current_amd64.deb
 pip install selenium chromedriver_autoinstaller
 ```
 
+**Important Note:** To address recent errors in this installation process, you will want to add the following line directly beneath `dpkg -i google-chrome-stable_current_amd64.deb`:
+
+```python
+apt --fix-broken install
+```
+
 Next, the required python libraries for this crawler will be imported. To execute the crawling task, we will use BeautifulSoup, time, datetime, pandas. Since Google Colab has already pre-installed BeautifulSoup and pandas, you do not need to install again.
 
 ```Python
