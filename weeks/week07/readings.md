@@ -4,6 +4,9 @@ _Topic: geovisualization & narrativity (storytelling & emotion)_
 
 - [Affective Geovisualizations](https://drive.google.com/file/d/1aqMFkewNT9s9nrAecAVYiaBAbtCrf7xj/view?usp=sharing)
 
+- [Oregon Atlas](http://oregonwater.info/atlas.html)
+- [Planning and outlining your story map](https://www.esri.com/arcgis-blog/products/arcgis-storymaps/sharing-collaboration/planning-and-outlining-your-story-map-how-to-set-yourself-up-for-success/) 
+
 -   [Using Narrativity as Methodological Tool: EEVA-KAISA PROKKOLA, 2014](https://drive.google.com/file/d/1w8kM9zdfNRA0bLaQJn5Zvdl8SCuz52Nu/view?usp=sharing)
 
 _Topic: dwelling, identity, mapping reflections of place_
