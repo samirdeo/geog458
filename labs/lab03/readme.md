@@ -58,6 +58,8 @@ let map = new mapboxgl.Map({
 });
 ```
 
+> **Important Note**: You will need to replace the Mapbox token provided here with [one of your own](https://docs.mapbox.com/help/dive-deeper/access-tokens/). This will require that you set up a Mapbox account. Our use of Mapbox in this course will not exceed the free tier, but it may be necessary to provide Mapbox with billing information.
+
 **Make the map full screen**
 
 To expand the map to the full screen, we set no margin and padding of the body element, and the map element will anchor to both the top and bottom. The width of the map will occupy the whole screen.
