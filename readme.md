@@ -101,7 +101,7 @@ In the lecture section, we'll work together to make sure everyone is familiar wi
 <details>
 <summary><b>Readings, Labs, and Weekly Think Pieces</b></summary>
 
--   **Presentations**: Tuesday: Hacker Cartography Paper [Group07], [TweetMap](https://www.heavy.ai/demos/tweetmap) [Group12]; Thursday: Digital Mapping and Segregation paper [Group17], [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) [Group03]
+-   **Presentations**: Tuesday: Hacker Cartography Paper [Group07], [OneMillionTweetMap](https://onemilliontweetmap.com/) [Group12]; Thursday: Digital Mapping and Segregation paper [Group17], [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) [Group03]
 -   **Lectures:** [BaseMap design using Mapbox Studio](https://docs.mapbox.com/studio-manual/overview/), [Mockup for web mapping project](weeks/week04/mockup/readme.md), and [MapBox Studio How-to Videos](weeks/week05/readme.md).
 -   **Readings:** a) [Digital Mapping and Segregation](https://www.forbes.com/sites/drsarahbond/2017/10/20/how-is-digital-mapping-changing-the-way-we-visualize-racism-and-segregation/#4df35c7d33fa), b) [Hacker Cartography](https://drive.google.com/file/d/1Gb486GWG34i4ZE_FfiMMtO87R-RQs15e/view?usp=sharing), and c) [extended readings](weeks/week04/readings.md).
 -   **Think Piece 4:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211930) `Due: Feb 2nd, by 11:59pm`
