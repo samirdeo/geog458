@@ -114,6 +114,8 @@ You can load individual map layers from Mapbox Studio styles. What's more, you c
 
 If you need a guide to make your own MapBox maplayer, you can refer to [this Mapbox Studio Guide](https://docs.mapbox.com/studio-manual/overview/). After creating your own map, open the browser panel in QGIS. Scroll Down to the **'WMS/WMTS'**, right click, and click **'New Connection'**. A pop-up window should appear.
 
+> **Important Note:** When creating a Mapbox Studio layer, you will need to build from a **Classic** Mapbox style. To do so, you might follow [this link](https://docs.mapbox.com/api/maps/styles/), and, once you find a Classic style that you would like to adapt, you can click on the ‘Add to your Studio’ button. (This is necessary because custom styles built from the current Mapbox Standard styles will cause issues when creating WMS/WMTS connections.)
+
 ![](img/new-connection.png)
 
 Here, you can make a new connection to basemaps by providing the URL. In order to obtain the URL to your mapbox basemap, click `share` located next to your map on MapBox Studio:
