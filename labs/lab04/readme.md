@@ -2,6 +2,12 @@
 
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu; **Points Available** = 50
 
+This lab follows a simple pipeline that links conceptual understanding with practical implementation. In **Sections 1–2**, you learn how web map tiles work, including tile pyramids, zoom levels, `{z}/{x}/{y}` indexing, and the Web Mercator projection. You will not implement these formulas by hand, but they explain what QGIS exports and how web maps retrieve tiles. In **Section 3**, you use QGIS (QMetaTiles or QTiles) to convert styled map layers into raster tiles organized in a standard `{z}/{x}/{y}.png` folder structure. In **Section 4**, you use Mapbox GL JS to load these locally stored tiles (from your `assets/` folder) as raster layers and integrate multiple tilesets into a single interactive web map. In short, **QGIS creates the tiles, and Mapbox GL JS displays the tiles in the browser**. 
+
+The skills you practice here directly support your final project: you will be able to design a custom basemap and thematic layers, optimize extent and zoom levels to control file size and performance, and reuse the same tileset-and-layer-switcher workflow to present multiple map designs and storytelling layers in your final web map.
+
+## 1. Why Tiles?
+
 The earliest web maps were typically drawn on the fly by the server, no matter how many layers were available or requested. As you may have noticed, **the symbol sets and labeling choices for this type of map are relatively limited and complex to work with**. In fact, for many years, web cartographers had to build a map with minimal layer set and simple symbols to avoid hampering performance. In many cases, a cartographer was not even involved; instead, the web map was made by a server administrator tweaking SLD files that defined the layer order, symbol sizes, and so forth. This was the case with both open specification web services (like WMS) and proprietary web services (like Esri ArcIMS).
 
 In the mid-2000s, after Google Maps, Microsoft Virtual Earth (now Bing Maps), and other popular mapping applications hit the web, **people started to realize that maybe they didn't need the ability to tinker with the properties of every single layer**. These providers had started fusing their vector layers together in a single rasterized image that was divided into 256 x 256 pixel images, or tiles. These tiles were pregenerated and stored on disk for rapid distribution to clients. This was done out of necessity to support hundreds or thousands of simultaneous users, a burden too great for drawing the maps on the fly.
@@ -28,7 +34,9 @@ Tiled maps were the only model that could reasonably work for serving complex we
 
 ## 2. Bing Tile System
 
-The tile system of Microsoft Bing map is one of the earliest map tile system. To illustrate how the tile system work, I will focus on the Bing Tile system in this section. Bing Maps provides a world map that users can directly manipulate to pan and zoom. To make this interaction as fast and responsive as possible, Bing chose to pre-render the map at many different levels of detail, and to cut each map into tiles for quick retrieval and display. This section describes the projection, coordinate systems, and addressing scheme of the map tiles, which collectively are called the Bing Maps Tile System.
+The tile system of Microsoft Bing map is one of the earliest map tile system. To illustrate how the tile system work, I will focus on the Bing Tile system in this section. Bing Maps provides a world map that users can directly manipulate to pan and zoom. To make this interaction as fast and responsive as possible, Bing chose to pre-render the map at many different levels of detail, and to cut each map into tiles for quick retrieval and display. This section describes the projection, coordinate systems, and addressing scheme of the map tiles, which collectively are called the Bing Maps Tile System. 
+
+> If you are short on time, skim this whole section and focus on the rest of this instruction and deliverable.
 
 ### 2.1 Map Projection
 
@@ -96,13 +104,16 @@ This table shows each of these values at each level of detail, **as measured at
 |                  23 |                     2,147,483,648 |                                 0.0187 | 1 : 70.53                |
 
 
+> The tile pyramid, zoom levels, and Web Mercator projection introduced above are exactly what QGIS uses when exporting tiles. In Section 3, you will export your own `{z}/{x}/{y}.png` tiles in EPSG:3857 so they can be loaded directly by web mapping libraries.
+
+
 ## 3 Generating Tiles in QGIS
 
 In this section we will introduce how to load online map service as a map layer, and then convert the map layer as a tileset in QGIS 3. To do this, you need to install the QGIS plugin `QMetaTiles`.
 
 To install the `QMetaTiles` Plugin, you need to click on `Plugins` on the main menu bar, and then `Manage and Install Plugins`. Then search for `QMetaTiles` and install the plugin. **For some version of QGIS, there is no plugin named `QMetaTiles`, Instead, you can use `QTiles`.**
 
-Once you have the map layer or layer group ready, please change the displaying projection to **Pseudo Mercator**, the epsg code is 3857. It is because most web maps are projected in the Pseudo Mercator. If you want to overlay any tiles with other external map services, you need to make sure all the displaying map layers are in the same projection.
+Once you have the map layer or layer group ready, please change the displaying projection to **Web Mercator**, the epsg code is 3857. It is because most web maps are projected in the Web Mercator. If you want to overlay any tiles with other external map services, you need to make sure all the displaying map layers are in the same projection.
 
 ![](img/projection.png)
 
@@ -112,7 +123,7 @@ You can load individual map layers from Mapbox Studio styles. What's more, you c
 
 ![](img/wmts.png)
 
-If you need a guide to make your own MapBox maplayer, you can refer to [this Mapbox Studio Guide](https://docs.mapbox.com/studio-manual/overview/). After creating your own map, open the browser panel in QGIS. Scroll Down to the **'WMS/WMTS'**, right click, and click **'New Connection'**. A pop-up window should appear.
+If you need a guide to make your own MapBox maplayer, you can refer to [this Mapbox Studio Guide(Publish your style)](https://docs.mapbox.com/studio-manual/guides/publish-your-style/). After creating your own map, open the browser panel in QGIS. Scroll Down to the **'WMS/WMTS'**, right click, and click **'New Connection'**. A pop-up window should appear.
 
 > **Important Note:** When creating a Mapbox Studio layer, you will need to build from a **Classic** Mapbox style. To do so, you might follow [this link](https://docs.mapbox.com/api/maps/styles/), and, once you find a Classic style that you would like to adapt, you can click on the ‘Add to your Studio’ button. (This is necessary because custom styles built from the current Mapbox Standard styles will cause issues when creating WMS/WMTS connections.)
 
@@ -132,66 +143,76 @@ Click the Plugins drop down, hover over QMetaTiles to open the menu and select i
 
 ![QMetaTiles](img/qmetatiles_to_leaflet.png)
 
-> Note: the runtime is dependent on the size and number of zoom levels. Please do not select the `use TMS tile convertion` option.
+> Note: the runtime is dependent on the size and number of zoom levels. Please do not select the `use TMS tile conversion` option.
 
-The file directory will contain your QMetaTiles and an HTML document that can be integrated with `leaflet` if you checked "Write Leaflet-based viewer". Additional help with QMetaTiles can be found **[here](http://felix.rohrba.ch/en/2017/easily-add-tilemap-layers-qgis/)**. The leaflet map will help you view the map tiles. But for your own deliverable, you need to load the maps using [Mapbox GS JS](https://docs.mapbox.com/mapbox-gl-js/api/).
+The file directory will contain your QMetaTiles and an HTML document that can be integrated with `leaflet` if you checked "Write Leaflet-based viewer". Additional help with QMetaTiles can be found **[here](https://www.qgistutorials.com/en/docs/creating_basemaps_with_qtiles.html)**. The leaflet map will help you view the map tiles. But for your own deliverable, you need to load the maps using [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/).
 
 ### 3.4 Navigate to QMetaTiles folder
 
 Navigate to the output file after QMetaTiles finishes running. In this folder will be your sub folders of tiles arranged by zoom level, and an html document if you checked "Write Leaflet-based viewer" when generating tiles in QGIS.
 
 
-## 4 Add map tiles to a MapBox Map
+## 4 Add map tiles to a Mapbox GL JS map
 
-For web mapping and geovisualization applications, the QMetaTiles folder generated above in QGIS (the folder that holds all tiles at different zoom levels) should be placed in your assets folder of your repository. To get a starter code for the map, you can refer to [the class materials in week 4](https://github.com/jakobzhao/geog458/tree/master/weeks/week04). You can refer to the code below as an example for add the files as a map layer. **In the code you will need to use relative path names.**
+For web mapping and geovisualization, you will display the tiles you generated in QGIS using **Mapbox GL JS**. After QMetaTiles finishes, you should have an output folder containing subfolders organized by zoom level (e.g., `{z}/{x}/{y}.png`). Copy that entire tiles folder into the `assets/` directory of your GitHub repository.
+
+To get started, follow Mapbox’s “Simple map” example to create a basic Mapbox GL JS map:  
+https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
+
+Once your base map is working, you can add your exported tiles as a new **raster tile source** and display them as a **raster layer**. Use the example below, and **make sure you use relative paths** so the map works correctly on GitHub Pages.
 
 ```js
-
-map.on('load', () => { //simplifying the function statement: arrow with brackets to define a function
-
+map.on('load', () => {
   map.addSource('uw-tiles', {
-      'type': 'raster',
-      'tiles': [
-          'assets/uw/{z}/{x}/{y}.png'
-      ],
-      'tileSize': 256,
-      'attribution': 'Map tiles designed by Bo Zhao</a>'
+    type: 'raster',
+    tiles: [
+      'assets/uw/{z}/{x}/{y}.png'
+    ],
+    tileSize: 256,
+    attribution: 'Map tiles designed by Bo Zhao'
   });
 
   map.addLayer({
-      'id': 'uw',
-      'type': 'raster',
-      'layout': {
-          // 'visibility': 'none'
-        	// Uncomment the line above will hide this map layer at first.
-        	// This will be useful when you have multiple layers added to your map.
-      },
-      'source': 'uw-tiles'
+    id: 'uw',
+    type: 'raster',
+    source: 'uw-tiles',
+    layout: {
+      // 'visibility': 'none'
+      // Uncomment the line above to hide this layer on initial load.
+      // This is useful when you add multiple tile layers.
+    }
   });
-
-
 });
 ```
 
-As shown by the code, the tiles are loaded from a relative path `assets/[tilesets]` which exists at a location in your internal network. For the following parameters in the path: `{z}` indicates zoom level, `{x}` and `{y}` are tile coordinates. 
+In this example, tiles are loaded from the relative path `assets/uw/{z}/{x}/{y}.png`, where:
 
-[Here](http://jakobzhao.github.io/geog458/labs/lab04/index.html) is what the final output looks like. The source code for the map can be found [here](index.html). The source code include the additional code for adding a layer switcher, as shown at the upper right corner of the screenshot below.
+* `{z}` is the zoom level
+* `{x}` and `{y}` are the tile coordinates
+
+You can see an example of the final output here:
+[http://jakobzhao.github.io/geog458/labs/lab04/index.html](http://jakobzhao.github.io/geog458/labs/lab04/index.html)
+
+The full source code (including a layer switcher) is available here: `index.html`.
 
 ![mapbox map](img/final-map.png)
 
-## 5 Deliverable
 
-- You are expected to generate **four** tile sets of any geographic phenomena you are interested in, and assemble all the layers to a mapbox made out of Mapbox gs js. **Since github repository only allows you upload a limited amount of data, so please make sure not to generate too many tiles by limiting the boundingbox or the scale range.** This lab is an opportunity to make a basemap or thematic map layers for your final project. Below are the lab requirement.
+## 5. Deliverable
+
+- You are expected to generate **four** tile sets of any geographic phenomenon you are interested in, and assemble them into a single web map using **Mapbox GL JS**. Because GitHub repositories (and GitHub Pages) have practical file-size limits, you must avoid generating too many tiles by **limiting the export extent (bounding box)** in QGIS (e.g., using *Canvas Extent* or *Layer Extent* to keep the study area small) and/or by **limiting the zoom levels (scale range)** you export (e.g., selecting a narrower range such as 11–15 instead of 0–18). This lab is an opportunity to create a basemap and thematic map layers that you can reuse for your final project. Below are the lab requirements.
 
   - The first tile set should be a base map provided by MapBox. **Please make sure it is a basemap rather than a thematic map.** In most web map applications, Basemap is overlain with other thematic map layers and/or interactive features. Its primary function is to illustrate the geographical context of the study area. Therefore, a basemap is usually made in a monochrome color scheme. You are encouraged to make your basemap directly out of the existing map layers provided by MapBox (like those monochrome map layers provided on MapBox Studio). However, please make sure to change at least a few color uses, icons, and the label font. Overall, even you made a few changes, the base map should still look visually appealing. (5 POINTS).
 
-  - The second tile set should be a thematic layer made by your own geospatial dataset. (5 POINTS).
+  - The second tile set should be a thematic layer made by your own geospatial dataset. In this lab, a geospatial dataset means any spatial layer you can load into QGIS, such as a Shapefile (`.shp`), GeoJSON (`.geojson`), or a CSV with latitude/longitude. You may also create your own dataset by digitizing points/lines/polygons in QGIS and styling them as a thematic layer before exporting tiles. (5 POINTS).
+
+> **Where can I get geospatial dataset?**  You can use (1) public open data portals (city/county/state open data), (2) Natural Earth for small-scale global layers, (3) US Census TIGER/Line data, (4) OpenStreetMap-derived datasets, or (5) a small dataset you digitize yourself in QGIS (recommended if you want to keep tile size small).
 
   - The third tile set should be composed of the thematic layer (from the second tile set) and the basemap from the first tile set. (5 POINTS).
 
   - The fourth tile set should be a map layer designed over Mapbox. It should embody a map theme relevant to your research interests, which, for instance, could be Black History month, LGBTQ+ Pride, UW, Nature/Environment, etc. Please try to use the color, icon, and label to realize the theme.  (5 POINTS). 
 
-> An example can be found from [here](https://ramouj.github.io/Map-Tile-Generation/index.html). Although the map library of this example is leaflet, but you can refer the map this student has designed as an example. You need to make the maps using Mapbox GS JS.
+> An example can be found from [here](https://ramouj.github.io/Map-Tile-Generation/index.html). Although the map library of this example is leaflet, but you can refer the map this student has designed as an example. You need to make the maps using Mapbox GL JS.
 
 -  After the map tiles are generated, you are expected to create an index.html to visualize the four tile map sets.
     -  create any necessary web page elements, such as page/map title, scale bar, attribution, zoom control, map description, etc. (5 POINTS)
@@ -210,29 +231,33 @@ As shown by the code, the tiles are loaded from a relative path `assets/[tileset
 
 The structure of this repository should look like:
 
-```powershell
-[your_repository_name]
-    │readme.md
-    │index.html
-    ├─assets
-    │      [tile sets 1]
-    │         XXX
-    │         XXX
-    │      [tile sets 2]
-    │         XXX
-    │         XXX
-    │      [tile sets 3]
-    │         XXX
-    │         XXX
-    │      [tile sets 4]
-    │         XXX
-    │         XXX
+```text
+[your_repository_name]/
+├─ readme.md
+├─ index.html
+└─ assets/
+   ├─ tileset_1/
+   │  ├─ {z}/
+   │  │  ├─ {x}/
+   │  │  │  └─ {y}.png
+   │  │  └─ ...
+   │  └─ ...
+   ├─ tileset_2/
+   │  ├─ {z}/{x}/{y}.png
+   │  └─ ...
+   ├─ tileset_3/
+   │  ├─ {z}/{x}/{y}.png
+   │  └─ ...
+   └─ tileset_4/
+      ├─ {z}/{x}/{y}.png
+      └─ ...
 ```
+**Note:** Each tileset folder contains many raster image tiles exported from QGIS, organized using the standard web map tile pyramid structure. In this structure, `{z}` represents the zoom level, `{x}` represents the tile column, and `{y}`.png represents the tile image at that location.
 
 ## Extended Readings
 
--   Vector Tiles: <http://docs.geoserver.org/latest/en/user/extensions/vectortiles/tutorial.html>
--   3D Tiles: <https://github.com/AnalyticalGraphicsInc/3d-tile>
+-  Vector Tiles: <http://docs.geoserver.org/latest/en/user/extensions/vectortiles/tutorial.html>
+-  3D Tiles: <https://github.com/CesiumGS/3d-tiles>
 
 ## References:
 
