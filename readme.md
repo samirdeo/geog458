@@ -184,7 +184,6 @@ This week, we're exploring emerging topics in digital geographies! We'll be focu
 
 During this week, each group will focus on their final projects, with the instructor and TAs available to provide support during normal lecture periods, lab sessions, and office hours. Don't hesitate to reach out if you need any help along the way. The final project presentation will be held on **Mar 11th** during the lab sessions.
 
-
 ## :bell: Course Requirement
 
 **E-mail:** is the easiest way of reaching me. I will respond to all e-mails during office hours, and will periodically return e-mail at other times. Please note that the answer to many commonly e-mailed questions can be found in the syllabus or on the course website. Please also note that in order to respond your e-mail you MUST include the following information in every e-mail:
@@ -209,7 +208,7 @@ During this week, each group will focus on their final projects, with the instru
 
 - When preparing an in-class presentation for a digital project, like an interactive map, make sure to cover the main topic and key functions of the project. Also, connect the reading material and your think-piece with the project, for example providing a critical assessment of the use of geospatial data. Additionally, make sure to go into depth about the technical aspects of the project, such as the system architecture and the code. Check out [the detailed requirement for in-class presentation](presentation/readme.md).
 
-**Final Project:** will be conducted by a group of 4 to 5 students who are from the same Lab session. It needs to be submitted by `March 11th 11:59pm`. Check out [the detailed requirement for final project](project/readme.md).
+**Final Project:** will be conducted by a group of 4 to 5 students who are from the same Lab session. It needs to be submitted by `March 16th 11:59pm`. Check out [the detailed requirement for final project](project/readme.md).
 
 ## :heavy_check_mark: Grading
 

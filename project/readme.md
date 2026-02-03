@@ -112,14 +112,12 @@ This week, you are expected to work on your final project. We do not expect huge
 
 There is no deliverable in this week, but you are required to concentrate on developing your final project. In the meantime, **each group will need to meet your TA at least once during the lab session in Week 9. So, please participate in the lab sessions!** Also, in Week 9, the instructor will be available for virtual meetings during the normal lecture sessions and office hour sessions. You can make an appoint with the instructor via this [link](https://). If the time does not work for you, please reach out to schedule a commonly available time slot.
 
-**Final project submission**
+#### Week 10: Project Presentation and Submission
 
-To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by `March 11th 11:59pm`. This first submission will be mainly used by the instruction team to provide you with necessary feedback on improving your project. After receiving feedback, you can continue crafting your project until presentation day (Mar. 10th). The final grade for the project will be based on the work done by the end of March 10th.
+- **Final Project Presentation:** will be held on Wednesday, March 11th, in SMI 401 during the lab sessions from 12:30PM to 4:20PM PST. Each group is expected to present the final project in 8 minutes, and plus another 2 minute for a Q&A session. In addition, each group is expected to ask at least 3 questions in total during the Q&A sessions after each of the presentations. This will count toward your groups of the Final Project Progress grade.
 
-**Final project presentation**
+- **Final Project Submission：**needs to be delivered to Canvas by the next Monday, March 16th, 11:59 PST. To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas.
 
-Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting on in (Location SMI 401) **Mar 8th, 1:30 PM to 3:20 PM**, each group is expected to present the final project in 8 minutes, and plus another 2 minute for a Q&A session.
-
-  - Each group is expected to ask at least 3 questions in total during the Q&A sessions after each of the presentations. This will count toward your groups of the Final Project Progress grade.
+- **In-Group Peer Evaluation:** Each group member needs to submit the peer evaluation form on canvas by March 17th, 11:59 PST.
 
 >  **Note:** The requirements to the project may be slightly changed according the progress of this course. The final requirements are subject to the instructor's notification.
