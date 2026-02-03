@@ -52,11 +52,11 @@ All the final projects are expected to be published online, and the codes are 
 
 Please share your final project proposal on this discussion board.  A proposal only needs to be shared once by one of your group members. In the proposal, please indicate what you want to make by the end of this quarter, the targeting audience,  the available datasets, the required multimedia (e.g., texts, images, videos, etc), and the functions. It would be great if you can find one or two digital geographies-related projects that you can learn from. It will give the instructor and TAs a better idea of how to help you. The proposal needs to have **at least 300 words** and one or two screenshots of the available projects that you want to learn from. Once a project proposal is shared, I welcome any suggestions if you have, the TAs and the instructor will participate in the discussion too.
 
-#### Week 6: [Design project prototype](https://canvas.uw.edu/courses/1696704/discussion_topics/8613881)  `Due: Feb. 18th, by 11:59pm`
+#### Week 6: [Design project prototype]
 
 Please share your project prototype on this discussion board. A prototype is a sketch of your expected graphic user interface (GUI) of the project. Usually, it will contain a few GUIs of the proposed project. When designing the prototype, you are expected to first 1) determine what types of projects your group plan to work on: a generic web map project, a storymap, or a dashboard; and then for each interface, you are expected to 2) appropriately illustrate each component (e.g., map view, title, legend, side panel, etc.) in its right size to its position on a web page. Please make sure 3) to balance the information richness and the legibility of the design. In other words, it should not be too complicated, even though, it can still illustrate adequate information about the project. You are encouraged to create the prototype by drawing on paper or designing on [Figma](https://www.figma.com) if you prefer.
 
-#### Week 7: [Proposal revision and pilot study](https://canvas.uw.edu/courses/1696704/discussion_topics/8613880)   `Due: Feb. 26th, by 11:59pm`
+#### Week 7: [Proposal revision and pilot study]
 
 This week, you are required to revise your proposal based on the feedback from the TAs and the instructor. In the meantime, please conduct pilot studies in order to 1) test and/or fine-tune your proposed idea to a practical level and 2) detail specific project components. Once done, please share your revised proposal onto the discussion board. This deliverable should **not be less than 300 words**. Your revised proposal should have the following components. 
 
