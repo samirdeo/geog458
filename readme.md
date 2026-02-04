@@ -148,7 +148,7 @@ This week, we’re diving into geo-narrative—the use of storytelling in mappin
 
 <!-- Feb 16 to Feb 20 -->
 
-This week, we’re diving into geo-narrative—the use of storytelling in mapping practice—while treating smart dashboards as one important form of geo-narrative rather than a separate technique. In this framing, dashboards are not just collections of visuals; they are narrative systems that combine maps, charts, text, and interaction to guide attention, build context, and help audiences interpret patterns, relationships, and change over time. We’ll explore geo-narrative by looking at some of the most innovative narrative mapping projects out there, and we’ll strengthen our own design thinking through group discussion, critique, and iteration.
+This week we turn to Geospatial Artificial Intelligence (GeoAI)—how machine learning and emerging AI systems are reshaping spatial analysis, mapping, and geographic knowledge production. We’ll examine GeoAI both as a set of technical methods (e.g., modeling spatial patterns, learning representations of place, space, and time) and as a critical object of inquiry: what kinds of spatial truths these models produce, where they fail, and what risks emerge when AI-generated geographies are treated as “ground truth.”
 
 <details>
 <summary><b>Readings, Labs, and Weekly Think Pieces</b></summary>
