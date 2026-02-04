@@ -1,6 +1,6 @@
 # GEOGRAPHY 458: Advanced Digital Geographies
 
-**Hyperlinks:** [**`Weekly Schedules`**](#calendar-weekly-schedule) &nbsp;&nbsp;&nbsp;&nbsp; [**`Course requirement`**](#bell-course-requirement) &nbsp;&nbsp;&nbsp;&nbsp; [**`Final Project Guideline`**](project/readme.md)
+**Hyperlinks:** [**`Weekly Schedules`**](#calendar-weekly-schedule) &nbsp;&nbsp;&nbsp;&nbsp; [**`Course requirement`**](#bell-course-requirement) &nbsp;&nbsp;&nbsp;&nbsp; [**`Final Project Guideline`**](project/readme.md) &nbsp;&nbsp;&nbsp;&nbsp; [**`# of In-Class Questions`**](https://docs.google.com/spreadsheets/d/1J-4tYBIqb2ag-5oiQ_pnH28JamI8KlWqThPM2kir328/edit?usp=sharing)
 
 **Meetings:**
 
