@@ -122,7 +122,7 @@ This week, we shift our focus to the concept of Participatory GIS, a pivotal are
 -   **Think Piece 5:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211931) `Due: Feb 9th, by 11:59pm`
 -   **Lab 5:** [Participatory Online Map Application](labs/lab05) `Due: Feb 19th, by 11:59pm`
 
--   **[Final Project Checkpoint](project/readme.md):** [Draft project proposal, data sources, and other multimedia](https://canvas.uw.edu/courses/1862477/discussion_topics/10211938) `Due: Feb. 6th 11:59pm`
+-   **[Final Project Checkpoint](project/readme.md):** [Draft project proposal, data sources, and other multimedia](https://canvas.uw.edu/courses/1862477/discussion_topics/10211938) `Due: Feb. 9th 11:59pm`
 </details>
 
 ### Week 6: Geo-Narratives and visualization
@@ -140,7 +140,7 @@ This week, we’re diving into geo-narrative—the use of storytelling in mappin
 -   **Readings:** a) [The praxis and politics of building urban dashboards](https://drive.google.com/file/d/1l3V1drqXMxn9rib7nTuDtxJC5YcWL0pY/view?usp=sharing) , b) [Cartographic Design as Visual Storytelling: Synthesis and Review of Map-Based Narratives, Genres, and Tropes](https://drive.google.com/drive/folders/1JoXMil3jC6jAS9gE3K8zeP0NSHyHJkE7), c)[extended readings](weeks/week07/readings.md).
 -   **Think Piece 6:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211932) `Due: Feb 16th by 11:59pm`
 -  **Lab 6:** [Smart Dashboard Application](labs/lab06) or **Lab 7:** [Map-based Storytelling Application](labs/lab07) `Due: Feb 19th, by 11:59pm`
--   **[Final Project Checkpoint](project/readme.md):** [Design project prototype & data preparation](https://canvas.uw.edu/courses/1862477/discussion_topics/10211937) `Due: Feb. 13th, by 11:59pm`
+-   **[Final Project Checkpoint](project/readme.md):** [Design project prototype & data preparation](https://canvas.uw.edu/courses/1862477/discussion_topics/10211937) `Due: Feb. 16th, by 11:59pm`
 
 </details>
 
@@ -148,7 +148,7 @@ This week, we’re diving into geo-narrative—the use of storytelling in mappin
 
 <!-- Feb 16 to Feb 20 -->
 
-This week we turn to Geospatial Artificial Intelligence (GeoAI)—how machine learning and emerging AI systems are reshaping spatial analysis, mapping, and geographic knowledge production. We’ll examine GeoAI both as a set of technical methods (e.g., modeling spatial patterns, learning representations of place, space, and time) and as a critical object of inquiry: what kinds of spatial truths these models produce, where they fail, and what risks emerge when AI-generated geographies are treated as “ground truth.”
+This week, we’re diving into geo-narrative—the use of storytelling in mapping practice—while treating smart dashboards as one important form of geo-narrative rather than a separate technique. In this framing, dashboards are not just collections of visuals; they are narrative systems that combine maps, charts, text, and interaction to guide attention, build context, and help audiences interpret patterns, relationships, and change over time. We’ll explore geo-narrative by looking at some of the most innovative narrative mapping projects out there, and we’ll strengthen our own design thinking through group discussion, critique, and iteration.
 
 <details>
 <summary><b>Readings, Labs, and Weekly Think Pieces</b></summary>
@@ -157,7 +157,7 @@ This week we turn to Geospatial Artificial Intelligence (GeoAI)—how machine le
 -   **Readings:** a) [GeoAI for Science and the Science of GeoAI](weeks/week09/readings/li-2024.pdf) , b) [Posthuman Cartography](weeks/week09/readings/lin-2025.pdf), c) [Language models represent space and time](weeks/week09/readings/Gurnee-2024.pdf) and d) [GeoAI Collapse](weeks/week09/readings/zhao-2026.pdf).
 -   **Think Piece 7:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211933) `Due: Feb 23, by 11:59pm`
 -  **Lab 8:** `under development` [LLM assisted spatial analysis and mapping](labs/lab08) `Due: Feb 19th, by 11:59pm`
--   **[Final Project Checkpoint](project/readme.md):** [Proposal revision and pilot study](https://canvas.uw.edu/courses/1862477/discussion_topics/10211936) `Due: Feb. 19th, by 11:59pm`
+-   **[Final Project Checkpoint](project/readme.md):** [Proposal revision and pilot study](https://canvas.uw.edu/courses/1862477/discussion_topics/10211936) `Due: Feb. 23rd, by 11:59pm`
 </details>
 
 ### Week 8: Emerging topics
@@ -172,7 +172,7 @@ This week, we're exploring emerging topics in digital geographies! We'll be focu
 -   **Lectures:** The lecture focuses on the following papers.
 -   **Readings:** a) [Deepfake Geography](https://www.researchgate.net/profile/Chunxue-Xu/publication/351131604_Deep_fake_geography_When_geospatial_data_encounter_Artificial_Intelligence/links/608a48f5a6fdccaebdf4f065/Deep-fake-geography-When-geospatial-data-encounter-Artificial-Intelligence.pdf), b) [Blockchain and crypto place](https://www.sciencedirect.com/science/article/pii/S0016718520302219/pdfft?isDTMRedir=true&download=true), and c) [extended readings](weeks/week08/readings.md).
 -   **Think Piece 8:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211934) `Due: Mar 2nd, by 11:59pm`
--   **[Final Project Checkpoint](project/readme.md):** [Project development and identified issues](https://canvas.uw.edu/courses/1862477/discussion_topics/10211935) `Due: Feb 26th, by 11:59pm`
+-   **[Final Project Checkpoint](project/readme.md):** [Project development and identified issues](https://canvas.uw.edu/courses/1862477/discussion_topics/10211935) `Due: Mar. 2nd, by 11:59pm`
 
 </details>
 
