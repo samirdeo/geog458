@@ -156,7 +156,7 @@ This week, we’re diving into geo-narrative—the use of storytelling in mappin
 -   **Presentations**: Tuesday: GeoAI for Science and the Science of GeoAI  [Group05],  Posthuman Cartography [Group10] Thursday: Language models represent space and time [Group15], GeoAI Collapse [Group20]
 -   **Readings:** a) [GeoAI for Science and the Science of GeoAI](weeks/week09/readings/li-2024.pdf) , b) [Posthuman Cartography](weeks/week09/readings/lin-2025.pdf), c) [Language models represent space and time](weeks/week09/readings/Gurnee-2024.pdf) and d) [GeoAI Collapse](weeks/week09/readings/zhao-2026.pdf).
 -   **Think Piece 7:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1862477/discussion_topics/10211933) `Due: Feb 23, by 11:59pm`
--  **Lab 8:** `under development` [LLM assisted spatial analysis and mapping](labs/lab08) `Due: Feb 19th, by 11:59pm`
+-  **Lab 8:** [LLM assisted spatial analysis and mapping](labs/lab08) `Due: Feb 19th, by 11:59pm`
 -   **[Final Project Checkpoint](project/readme.md):** [Proposal revision and pilot study](https://canvas.uw.edu/courses/1862477/discussion_topics/10211936) `Due: Feb. 23rd, by 11:59pm`
 </details>
 
