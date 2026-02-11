@@ -135,11 +135,11 @@ Here, you can make a new connection to basemaps by providing the URL. In order t
 
 Make sure you pick Third party option and copy the Integration URL of `WMTS` like the example above. After establishing the connection, you should be able to add your basemap by double-clicking the newly created connection.
 
-Zoom into your tiles so that they fill most of the canvas space. **The canvas extent is the extent we will use to generate QMetaTiles.**
+Zoom into your tiles so that they fill most of the canvas space. **The canvas extent is the extent we will use to generate QMetaTiles.** We recommend that you set the canvas extent to roughly the area of a single city. A narrow extent can help reduce the number of generated tiles!
 
 ### 3.3 Generating Tiles by QMetaTiles (or QTiles)
 
-Click the Plugins drop down, hover over QMetaTiles to open the menu and select it. The QMetaTiles screen pops up. **For some version of QGIS, there is no plugin named QMetaTiles, Instead, you can use QTiles.** Name the directory where you want to save your tiles and provide a name for the Tileset. Select Canvas Extent and Zoom levels. In the Parameters make the **'Background transparency'** clear by changing the value to zero. Click Ok.
+Click the Plugins drop down, hover over QMetaTiles to open the menu and select it. The QMetaTiles screen pops up. **For some version of QGIS, there is no plugin named QMetaTiles, Instead, you can use QTiles.** Name the directory where you want to save your tiles and provide a name for the Tileset. Select Canvas Extent and Zoom levels (it is recommended that you set the zoom levels to a narrow range, such as 10 to 13, to reduce the quantity of output tiles). In the Parameters make the **'Background transparency'** clear by changing the value to zero. Click Ok.
 
 ![QMetaTiles](img/qmetatiles_to_leaflet.png)
 
