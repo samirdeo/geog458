@@ -13,7 +13,7 @@ For your deliverable, you need to create a smart dashboard all by yourself upon 
    - and at least two other data visualization components, like charts, dynamic icons/numbers, or diagrams. (10 POINTS)
    - make sure the repository accessible through the url `https://[your_github_username].github.io/[your_repository_name]`. Also, please provide the url to your webmap in the `readme.md` file. (5 POINTS).
 
-**Live map:** (Add your URL here after deploying to GitHub Pages, e.g. `https://[your_github_username].github.io/[your_repository_name]`)
+**Live map:** https://samirdeo.github.io/geog458/labs/lab06/
 
 **Why I chose a proportional symbol map:** The collision dataset is point-based, so proportional symbols show each incident at its real location with size indicating severity; a choropleth would require arbitrary area units and would hide where individual collisions cluster.
 
