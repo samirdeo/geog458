@@ -1,5 +1,7 @@
 # Lab 6: Making a Smart Dashboard
 
+**Disclosure:** AI was used in this assignment for debugging and searching for the right dataset.
+
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu; **Points Available** = 50
 
 In this lab, you will need to walk through the procedure to [create a smart dashboard](../../weeks/week06). The smart dashboard illustrates the earthquakes in Japan in September 2017, check out the demo from [here](https://jakobzhao.github.io/geog458/weeks/week06/index.html)). This dashboard is primarily built with a map component and a dynamic chart. This map component is made by MapBox, while the chart was built upon [C3.js](https://c3js.org/examples.html).
